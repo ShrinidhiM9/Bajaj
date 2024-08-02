@@ -1,0 +1,36 @@
+web: node app.js
+heroku login
+heroku git:remote -a <your-app-name>
+git add .
+git commit -m "Initial commit"
+git push heroku master
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  }
+}
+{
+  "operation_code": "GET_REQUEST_SUCCESS"
+}
+{
+  "status": "active",
+  "userId": "user123",
+  "collegeEmailId": "user@example.com",
+  "collegeRollNumber": "123456",
+  "numbers": [1, 2, 3],
+  "alphabets": ["a", "b", "c"]
+}
+{
+  "status": "active",
+  "userId": "user123",
+  "collegeEmailId": "user@example.com",
+  "collegeRollNumber": "123456",
+  "numbers": [1, 2, 3],
+  "alphabets": ["a", "b", "c"]
+}
