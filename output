@@ -1,0 +1,16 @@
+Enter JSON input: {"data": ["A", "C", "z"]}
+Response:
+{
+  "alphabets": ["A", "C"],
+  "numbers": [],
+  "highestAlphabet": "C"
+}
+Select options:
+Alphabets
+Numbers
+Highest alphabet
+Filtered Response:
+{
+  "alphabets": ["A", "C"],
+  "numbers": []
+}
